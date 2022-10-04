@@ -1,0 +1,29 @@
+package PackageAula13OperadoresAritimeticos;
+
+import java.util.Scanner;
+
+public class contraCheque {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Entre com o valor/hora");
+        double valorHora = scan.nextDouble();
+
+        System.out.println("Entre com a quantidade de horas trabalhadas no mês: ");
+        double horas = scan.nextDouble();
+
+        double salarioBruto = valorHora * horas;
+        double inss = (salarioBruto / 100) * 8 ;
+        double sindicato = (salarioBruto / 100 ) * 5;
+        double ir = (salarioBruto / 100) * 11;
+        double totolDescontos = inss + sindicato + ir;
+        double  salarioLiquido = salarioBruto - totolDescontos;
+        System.out.println("salário bruto: "+ salarioBruto);
+        System.out.println("INSS: "+inss);
+        System.out.println("Sidicato: "+ sindicato);
+        System.out.println("IR: "+ir);
+        System.out.println("Total descontos: "+totolDescontos);
+        System.out.println("Salário líquido: "+salarioLiquido);
+
+
+    }
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/javaBasico.iml" filepath="$PROJECT_DIR$/javaBasico.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../kdi/git/png-credito-shared/png-credito-shared.iml" filepath="$PROJECT_DIR$/../kdi/git/png-credito-shared/png-credito-shared.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../kdi/git/png-formalizacao-api/png-formalizacao-api.iml" filepath="$PROJECT_DIR$/../kdi/git/png-formalizacao-api/png-formalizacao-api.iml" />
+    </modules>
+  </component>
+</project>
