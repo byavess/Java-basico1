@@ -9,7 +9,7 @@ public class testeLampada {
         lampada.garantia= 36;
         lampada.potencia= 7;
         lampada.cor = "amarela";
-        lampada.tipoabajur = true;
+        lampada.tipoAbajur = true;
 
         lampada.tipos = new String[5];
         lampada.tipos[0] = "Abajur";
