@@ -1,5 +1,7 @@
+package aula07;
+
 class HelloWord{
 	public static void main(String[] args){
-		System.out.printls("Hello Word")
+		System.out.println("Hello Word");
 	}
 }

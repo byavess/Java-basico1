@@ -3,10 +3,10 @@ package OrientObjto;
 
 
 public class Carro {
-        String marca;
-        String modelo;
-        int numPassageiro;
+        public String marca;
+        public String modelo;
+        public int numPassageiro;
         double capCombustivel;
-        double consumoCombustivel;
+        public double consumoCombustivel;
 
 }
